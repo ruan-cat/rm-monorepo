@@ -29,7 +29,7 @@
 	// Disable the default formatter, use eslint instead
 	// 与antfu不同的是，我们使用prettier作为"prettier.enable": true,
 	"editor.formatOnSave": true,
-格式化工具。
+	格式化工具。
 		// "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	// Auto fix
 	"editor.codeActionsOnSave": {
@@ -106,6 +106,8 @@
 		"graphql",
 		"astro"
 	],
+	/** 启用文件嵌套折叠功能 */
+	"explorer.fileNesting.enabled": true,
 	// AI 大模型记忆文件折叠配置
 	"explorer.fileNesting.patterns": {
 		"CLAUDE.md": "GEMINI.md,AGENTS.md"
