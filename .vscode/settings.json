@@ -27,10 +27,10 @@
 	// 在项目内，我们指定格式化工具默认为 prettier
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	// Disable the default formatter, use eslint instead
-	// 与antfu不同的是，我们使用prettier作为格式化工具。
-	"prettier.enable": true,
+	// 与antfu不同的是，我们使用prettier作为"prettier.enable": true,
 	"editor.formatOnSave": true,
-	// "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+格式化工具。
+		// "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 	// Auto fix
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit",
@@ -105,5 +105,9 @@
 		"gql",
 		"graphql",
 		"astro"
-	]
+	],
+	// AI 大模型记忆文件折叠配置
+	"explorer.fileNesting.patterns": {
+		"CLAUDE.md": "GEMINI.md,AGENTS.md"
+	}
 }
