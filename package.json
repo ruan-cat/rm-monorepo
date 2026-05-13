@@ -1,6 +1,10 @@
 {
 	"name": "@ruan-cat/root",
-	"author": "阮喵喵",
+	"author": {
+		"name": "ruan-cat",
+		"email": "1219043956@qq.com",
+		"url": "https://github.com/ruan-cat"
+	},
 	"description": "rmmv项目的monorepo单仓。用于测试实验各种东西。",
 	"version": "0.0.1",
 	"private": true,
